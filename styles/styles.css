@@ -36,6 +36,11 @@ margin:63px 240px;
 .section-group-info{
     margin: 567px 491px 825px 567;
 text-align: center;
+align-items: center;
+display:flex;
+flex-direction: column;
+
+
 
 }
 .group-title{
@@ -48,8 +53,34 @@ color: #131313;
 text-align: center;
 }
 p{
-   
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     color: #727272;
     text-align: center;
+padding-top: 3px;    
+}
+.button{
+    background-color: #FF900E;
+    height: 64px;
+    width:180px;
+    color:#FFFFFF;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+border-radius: 8px;
+border:none;
+margin-top: 30px;
+margin-bottom: 30px;
 
+}
+.section-group-info img{
+    margin-top: 15px;
+    width: 1440px;
+height: 700px;
+border-radius: 8px;
 }
